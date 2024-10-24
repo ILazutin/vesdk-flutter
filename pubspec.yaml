@@ -1,17 +1,18 @@
 name: video_editor_sdk
 description: The official Flutter plugin for VideoEditor SDK. Integrate the video editor into your own iOS or Android app - in minutes!
-version: 3.2.0
+version: 3.2.1
 homepage: https://img.ly/products/video-sdk
 repository: https://github.com/imgly/vesdk-flutter
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=3.16.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  imgly_sdk: 3.2.0
+  imgly_sdk: 
+    git: https://github.com/ILazutin/imgly-flutter.git
 
 dev_dependencies:
   flutter_test:
